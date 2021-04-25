@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Feel'eM</title>
+    <link type="text/css" rel="stylesheet" href="./albumstyle.css">
+</head>
+
+<body>
+    <center>
+        <div id="grid">
+            <a href="../album.html" target="_self">
+                <img id=logo src="../img/btobb.png" width="100" height="100"></a>
+            <span id="main" class="title">Feel'eM</span>
+        </div>
+        <h1>미니 10집 : Feel'eM / 2017년 3월 6일 발매</h1>
+        <div id="int">
+            <span>
+                <img src="../img/feelem.jpg" width="400" height="400">
+            </span>
+            <span>
+                <fieldset>
+                    <legend>앨범 구매</legend>
+                    <dl>
+                        <dt>가격 : 12,000원</dt>
+                        <dt>배송비 : 2,500원</dt>
+                        <dd><span id="more">(30,000원 이상 구매시 무료배송)</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>수량을 입력하세요.
+                            <span id="more">(※5장 이상은 기타에 입력해주세요.)</span>
+                        </dt>
+                        <dd>수량 :
+                            <input type="number" name="count" min="1" max="5">장 / 기타 : 
+                            <input type="text" name="morecount" size="3">장
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>주소를 입력하세요.</dt>
+                        <dd>
+                            우편번호 : <input type="text" size="5"> <br>
+                            상세주소 : <input type="text" size="30">
+                        </dd>
+                    </dl>
+                    <input type="submit" value="구매">
+                    <input type="reset" value="다시 작성">
+                </fieldset>
+            </span>
+        </div>
+        <p id="shop">앨범 상세정보</p>
+        <div>
+            <table border="1px">
+                <caption>Track List</caption>
+                <tr>
+                    <th width="30px">순서</th>
+                    <th width="200px">제목</th>
+                    <th width="120px">작사</th>
+                    <th width="120px">작곡</th>
+                    <th width="120px">편곡</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>말만 해</td>
+                    <td>임현식, EDEN, 이민혁, 프니엘, 정일훈</td>
+                    <td colspan="2">임현식, EDEN</td>
+                </tr>
+                <tr id="title">
+                    <td>2 <br>Title</td>
+                    <td>MOVIE</td>
+                    <td>정일훈, 일(IL), 이민혁, 프니엘</td>
+                    <td colspan="2">정일훈, 일(IL)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>About Time</td>
+                    <td>이민혁, 정일훈</td>
+                    <td colspan="2">이민혁, Wynn & Jerry.L (MAJORIG)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>빨리 뛰어 (ROCK N HIPHOP)</td>
+                    <td>서재우, 강동하, 이민혁, 프니엘, 정일훈</td>
+                    <td>서재우, 강동하, Devine Channel</td>
+                    <td>서재우, 강동하</td>
+                </tr>
+                <tr>
+                    <td>5 <br>선공개</td>
+                    <td>언젠가 (SOMEDAY)</td>
+                    <td>임현식, 이민혁, 프니엘, 정일훈</td>
+                    <td>임현식</td>
+                    <td>임현식, 손영진</td>
+                </tr>
+            </table>
+        </div>
+        <p id="last">※비투비 로고를 누르면 이전으로 돌아갑니다.</p>
+    </center>
+</body>
+
+</html>

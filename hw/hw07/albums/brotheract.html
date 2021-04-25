@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Brother Act.</title>
+    <link type="text/css" rel="stylesheet" href="./albumstyle.css">
+    <style>
+        .cdonly {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="grid">
+            <a href="../album.html" target="_self">
+                <img id=logo src="../img/btobb.png" width="100" height="100"></a>
+            <span id="main" class="title">Brother Act.</span>
+        </div>
+        <h1>정규 2집 : Brother Act. / 2017년 10월 16일 발매</h1>
+        <div id="int">
+            <span>
+                <img src="../img/brotheract.jpg" width="400" height="400">
+            </span>
+            <span>
+                <fieldset>
+                    <legend>앨범 구매</legend>
+                    <dl>
+                        <dt>가격 : 17,500원</dt>
+                        <dt>배송비 : 2,500원</dt>
+                        <dd><span id="more">(30,000원 이상 구매시 무료배송)</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>수량을 입력하세요.
+                            <span id="more">(※5장 이상은 기타에 입력해주세요.)</span>
+                        </dt>
+                        <dd>수량 :
+                            <input type="number" name="count" min="1" max="5">장 / 기타 : 
+                            <input type="text" name="morecount" size="3">장
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>주소를 입력하세요.</dt>
+                        <dd>
+                            우편번호 : <input type="text" size="5"> <br>
+                            상세주소 : <input type="text" size="30">
+                        </dd>
+                    </dl>
+                    <input type="submit" value="구매">
+                    <input type="reset" value="다시 작성">
+                </fieldset>
+            </span>
+        </div>
+        <p id="shop">앨범 상세정보</p>
+        <div>
+            <table border="1px">
+                <caption>Track List</caption>
+                <tr>
+                    <th width="30px">순서</th>
+                    <th width="200px">제목</th>
+                    <th width="120px">작사</th>
+                    <th width="120px">작곡</th>
+                    <th width="120px">편곡</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Prelude : 하루</td>
+                    <td>-</td>
+                    <td>임현식</td>
+                    <td>-</td>
+                </tr>
+                <tr id="title">
+                    <td>2 <br>Title</td>
+                    <td>그리워하다</td>
+                    <td>임현식, 이든(EDEN), 이민혁, 프니엘, 정일훈</td>
+                    <td colspan="2">임현식, 이든(EDEN)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>My Lady</td>
+                    <td>정일훈, 일(IL), 이민혁, 프니엘</td>
+                    <td colspan="2">정일훈, 일(IL)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>새빨간 거짓말</td>
+                    <td>서재우, FERDY, 임현식, 이민혁, 프니엘, 정일훈</td>
+                    <td>서재우, FERDY, 임현식</td>
+                    <td>서재우, FERDY</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>신바람</td>
+                    <td>서재우, 임현식, 정일훈, 이민혁, 프니엘</td>
+                    <td>서재우, 임현식, 정일훈</td>
+                    <td>서재우</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Interlude : Brother Act.</td>
+                    <td colspan="3">-</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>나나나</td>
+                    <td>이민혁, 프니엘, 정일훈, 조성호, 빅싼초</td>
+                    <td colspan="2">조성호, 빅싼초</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>꿈에</td>
+                    <td>조성호, 정일훈, 이민혁, 프니엘(Peniel), 손영진</td>
+                    <td colspan="2">조성호, 손영진</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Guitar (Stroke of Love)</td>
+                    <td>이민혁, 프니엘, 정일훈</td>
+                    <td>이민혁, 양승욱, DJ Ain</td>
+                    <td>양승욱, DJ Ain</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>이별을 만나다</td>
+                    <td>손영진, 조성호, 정일훈, 이민혁, 프니엘</td>
+                    <td>손영진, 조성호, 임현식</td>
+                    <td>손영진, 조성호</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Fly Away</td>
+                    <td>정일훈, 일(IL), 이민혁, 프니엘</td>
+                    <td colspan="2">정일훈, 일(IL)</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Finale : 우리들의 콘서트</td>
+                    <td>조성호, FERDY, 이민혁, 프니엘(Peniel), 정일훈</td>
+                    <td colspan="2">조성호, FERDY</td>
+                </tr>
+                <tr class="cdonly">
+                    <td>13</td>
+                    <td>속삭임 (CD Only)</td>
+                    <td>-</td>
+                    <td>임현식, 이든(EDEN)</td>
+                    <td>강동하</td>
+                </tr>
+            </table>
+        </div>
+        <p id="last">※비투비 로고를 누르면 이전으로 돌아갑니다.</p>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+    font-family: 'NanumSquare';
+    font-size: larger;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#grid {
+    display: grid;
+    background-color: #42B4E6;
+    vertical-align: middle;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    margin: 10px;
+    float: right;
+}
+
+#main {
+    height: 30px;
+    padding: 45px 0px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.title {
+    font-family: 'RIDIBatang';
+    font-size: 30px;
+}
+
+#last {
+    font-family: 'RIDIBatang';
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #42B4E6;
+    font-size: medium;
+    color: white;
+    font-style: italic;
+}
+
+#int {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: 20px 0px;
+}
+fieldset {
+    height: 370px;
+    width: 400px;
+}
+legend {
+    font-size: 23px;
+    font-weight: bold;
+}
+dl {
+    text-align: left;
+    line-height: 30px;
+}
+dd {
+    font-size: 18px;
+}
+#more {
+    color: gray;
+    font-size: 15px;
+    font-style: italic;
+}
+#shop {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 3px;
+    font-size: medium;
+    color: gray;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 900px;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 100px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+th {
+    height: 30px;
+    background-color: #42B4E6;
+    color: white;
+    padding: 5px;
+    table-layout: fixed;
+}
+
+td {
+    height: 50px;
+    table-layout: fixed;
+    font-size: 18px;
+    padding: 3px;
+}
+
+#title {
+    font-weight: bold;
+}
